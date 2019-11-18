@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.jhipster.microservice"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "gateway",
+    "baseName": "ms05",
+    "packageName": "org.jhipster.microservice",
+    "packageFolder": "org/jhipster/microservice",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2JhZjBiNTM4ZTVlYTNiMTU2YTZkYjU2NjJmNDYxMTRhZDZhMzgwNWRjNDZkZjZkZTJiOTU1ZGQyYTBjNWM3ZGUwMDYxZDE1YjAwNzgwOGY3YTIxZjM1MGM3Njc3YzFmMTlkMmUyYzBjYTVlNjkxZjAyYWMyZjRjNzAzZmFhM2I=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
