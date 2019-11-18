@@ -35,6 +35,7 @@ spec:
       containers:
         - name: ms05-app
           image: gcr.io/payment-platform-204588/ms05
+          imagePullPolicy: Always
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
