@@ -34,6 +34,16 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "enableTranslation": false,
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["ms05"],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "dockerRepositoryName": "gcr.io/payment-platform-204588",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "nothing",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
   }
 }

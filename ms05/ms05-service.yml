@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms05
+  namespace: nothing
+  labels:
+    app: ms05
+spec:
+  selector:
+    app: ms05
+  type: LoadBalancer
+  ports:
+    - name: http
+      port: 8080
